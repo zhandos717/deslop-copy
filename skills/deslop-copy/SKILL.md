@@ -16,6 +16,10 @@ Readers and Google's quality raters recognize AI copy in seconds, and on content
    It prints each hit with file:line and the pattern name, plus a per-file score. It only finds surface tells; you still read the copy yourself.
 2. **Read every string a visitor sees** (titles, leads, buttons, FAQ, meta descriptions, alt text) and judge it against the patterns below — the script misses structural slop.
 3. **Rewrite** in place. Keep facts, numbers, formulas, keywords that matter for SEO, and the file's syntax (watch quotes/apostrophes inside JS/TS string literals — use ’ in single-quoted strings).
+   - **Treat title, meta description and h1 wording as keywords.** Those phrases ("актуальный курс", "loan calculator") are usually what people search for. Remove filler around them; don't swap the phrase itself for a synonym unless you know it isn't a target query.
+   - **A rewrite must not be longer than the original** unless it adds a concrete fact. If your version needs an extra sentence to say the same thing, keep the original.
+   - **Don't add advice or claims that weren't there** ("check with your bank", "updated hourly"). Cutting is safe; adding needs a source on the same page.
+   - Leave legal/disclaimer wording ("справочный характер", "not financial advice") at least as strong as it was.
 4. **Fact-check anything you touch.** If a sentence contains a number, recompute or verify it. Deslopping must never introduce a wrong figure; flag numbers you can't verify instead of inventing them.
 5. **Rebuild / re-run the detector** and report: what changed (2–3 before→after examples), remaining hits you left on purpose, and what only the owner can add (see "Experience gap").
 

@@ -9,7 +9,7 @@
       "name": "deslop-copy",
       "source": "./",
       "description": "Rewrite website, SEO and marketing copy (English and Russian) so it stops reading like AI output.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
