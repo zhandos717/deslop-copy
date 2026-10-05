@@ -1,0 +1,9 @@
+{
+  "name": "deslop-copy",
+  "version": "1.0.0",
+  "description": "Rewrite website, SEO and marketing copy (English and Russian) so it stops reading like AI output.",
+  "author": { "name": "Zhandos Zhandarbekov" },
+  "homepage": "https://github.com/zhandos717/deslop-copy",
+  "license": "MIT",
+  "keywords": ["writing", "seo", "copywriting", "ai-slop", "content"]
+}
