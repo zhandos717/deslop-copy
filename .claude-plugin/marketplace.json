@@ -1,6 +1,9 @@
 {
   "name": "deslop-copy",
-  "owner": { "name": "Zhandos Zhandarbekov" },
+  "description": "Claude skill that removes AI writing tells from website and SEO copy (EN/RU).",
+  "owner": {
+    "name": "Zhandos Zhandarbekov"
+  },
   "plugins": [
     {
       "name": "deslop-copy",
